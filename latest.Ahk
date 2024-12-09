@@ -100,7 +100,7 @@ Main:
             Sleep 2000
             ; Begin shaking the line
             Tooltip Shaking
-            Send \
+            Send '
             StartTime := A_TickCount
             Loop, {
                 Send {down}{enter}
